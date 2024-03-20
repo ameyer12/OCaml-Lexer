@@ -1,0 +1,25 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/AustinTheGOAT/.cache/dune/db
+# Workspace root: /Users/AustinTheGOAT/Desktop/project1_5450_v2
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/AustinTheGOAT/Desktop/project1_5450_v2/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /Users/AustinTheGOAT/.opam/cs5450-2024sp/bin/ocamlc.opt -config > /var/folders/4n/vl3q3nsn6299s471pypztk7w0000gn/T/dune_611a1c_output
+$ (cd _build/default && /Users/AustinTheGOAT/.opam/cs5450-2024sp/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/bytes -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/findlib -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lambda-term -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/logs -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt/unix -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt_react -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/mew -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/mew_vi -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/compiler-libs -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/threads -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/unix -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocplib-endian -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocplib-endian/bigstring -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/react -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/result -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/trie -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uchar -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/utop -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uucp -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uuseg -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uutf -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/xdg -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/zed -I src/.interp.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /Users/AustinTheGOAT/.opam/cs5450-2024sp/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.bc /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/findlib/findlib.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/findlib/findlib_top.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/logs/logs.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt/lwt.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/logs/logs_lwt.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocplib-endian/ocplib_endian.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/unix/unix.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/ocaml/threads/threads.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt/unix/lwt_unix.cma -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt/../stublibs /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/react/react.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lwt_react/lwt_react.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/result/result.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uutf/uutf.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uucp/uucp.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/uuseg/uuseg.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/zed/zed.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/trie/trie.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/mew/mew.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/mew_vi/mew_vi.cma /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lambda-term/lambda_term.cma -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/lambda-term/../stublibs /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/xdg/xdg.cma -I /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/xdg/../stublibs /Users/AustinTheGOAT/.opam/cs5450-2024sp/lib/utop/uTop.cma src/interp.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
